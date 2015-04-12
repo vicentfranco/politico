@@ -15,7 +15,7 @@ class ActividadController extends BaseController{
     
     public function mostrarActividad(){
     	//$info = Actividad::all()->sortBy('fecha')->reverse();
-    	$actividades = Actividad::orderBy('fecha','DESC')->simplePaginate(2);
+    	$actividades = Actividad::orderBy('fecha','DESC')->simplePaginate(3);
     	return View::make('actividad.mostrarActividad', compact('actividades'));
     }
     

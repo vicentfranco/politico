@@ -17,7 +17,7 @@ class ContactosController extends BaseController{
                 [
                     'nombre'=> 'required',
                     'comentario'=>'required',
-                    'telefono'=>'numeric|required',
+                    'telefono'=>'required|numeric',
                     'email'=>'email'
                 ]);
         if($validaciones->fails()){

@@ -21,11 +21,11 @@
         <p class="error-validaciones">{{ $errors->first('nombre') }} </p>
         <br>
         {{ Form::label('telefono','Telefono:', array('class' => 'label')) }}
-        {{ Form::text('telefono', null,array('class' => 'text-field')) }}
+        {{ Form::number('telefono', null,array('class' => 'text-field')) }}
         <p class="error-validaciones"> {{$errors->first('telefono') }}</p>
         <br>
         {{ Form::label('email','Email:', array('class' => 'label')) }}
-        {{ Form::text('email', null,array('class' => 'text-field','size'=>'40')) }}
+        {{ Form::email('email', null,array('class' => 'text-field','size'=>'40')) }}
         <p class="error-validaciones"> {{$errors->first('email') }}</p>
         <br>
         {{ Form::label('comentario','Opinion y comentarios:',array('class' => 'label')) }}
