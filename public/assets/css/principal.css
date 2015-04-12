@@ -1,0 +1,261 @@
+html{
+    min-width: 900px;
+    margin:0;
+    padding: 0;
+    vertical-align: baseline;
+    border:0;
+    overflow-y: scroll;
+}
+
+
+body{
+    background: no-repeat -webkit-gradient(linear, 0 0, 0 90    , from(#848484), to(#fff));
+    background: -moz-linear-gradient(center top , #848484, white 90px) repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    display: block;
+    border: 0;
+    vertical-align: baseline;
+}
+
+p{
+    color: #505050;
+    font-family: Calibri;
+}
+
+#container{
+    width:900px;
+    margin:0 auto;
+    position: relative;
+    padding: 0;
+    display: block;
+ }
+
+header{
+    width: 100%;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    display: block;
+}
+.titulos{
+    float: left;
+    margin: 10px 0 20px 100px;
+}
+
+.redes{
+    top: 70px;
+    position: relative;
+    float: right;
+    width: 120px;
+    height: 40px;
+}
+
+.icon{
+    margin: 0 5px 0 5px;
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+.icon-contacto{
+    margin: 5px 5px 0 -15px;
+    height: 30px;
+    width: 40px;
+    float: left;
+}
+img.icon{
+    max-width: 100%;
+    max-height: 100%;
+}
+h1.nombre-titulo{
+    font-size: 55px;
+    font-family: "calibri"; 
+    font-weight: bold;
+    text-shadow: 5px 5px 6px rgba(123, 130, 137, 0.55);
+    color: #505050;
+}
+h2.nombre-titulo{
+    color: #cc2229;
+    font-family: "calibri"; 
+    font-style: italic;
+    font-size: 30px;
+    margin: 0 0 0 50px;
+}
+.nombre-titulo{
+    margin: 0;
+
+}
+
+#imagen {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    padding: 0;
+    float: left;
+}
+
+#imagen img{
+    max-width:100%; 
+    max-height:100%;
+    margin:0;
+    display:block;
+}
+
+nav{
+  margin: 0;
+  display: block;
+  width: 100%;
+  position: relative;
+  clear: both;
+}
+
+nav ul{
+    padding: 0 0 5px 0;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin:0;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+a{
+   text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+nav ul li{
+    border: 1px solid #fff;
+    display: block;
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav ul li a{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+nav ul li:hover a{
+
+    color: #CD3F3F;
+    border-radius: 5px;
+}
+nav ul li:hover{
+     border: 1px solid #fff;
+     border-radius: 5px;
+     box-shadow: 5px 5px 7px rgba(0,0,0,0.15);
+}
+
+
+#page{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin:0 0 100px 0;
+}
+
+.wrapper-childs{
+   position: relative;
+   width: 100%;
+   padding: 0;
+   margin:0;
+   clear: both;
+}
+
+#frase{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    position: relative;
+
+}
+h1.frase{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "helvetica";
+    color: #cc2229;
+    text-shadow: 5px 5px 6px rgba(123, 130, 137, 0.55);
+    font-size: 35px;
+}
+p.frase{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#frase2{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+
+#inferior-hr{
+    width: 500px;
+    margin: 0 auto 70px;
+}
+
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+
+footer{
+   background: #A4A4A4 no-repeat;
+   height: 100px;
+   position: relative;
+   clear: both;
+   padding: 0;
+   margin:0;
+   border:0;
+}
+
+.centrar-footer{
+    width: 900px;
+    margin :0 auto;
+    position: relative;
+    padding: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+
+.izquierda{
+    position: relative;
+    margin: 10px 0 0 40px;
+    float: left;
+}
+.derecha{
+    position: relative;
+    float: right;
+    margin: 10px 40px 0 0;
+}
+p.footer{
+    margin: 0;
+    font-size: 16px;
+    color: #cd0a0a;
+}
+
+.link{
+    text-decoration: none;
+    color: #cd0a0a;
+    font-size: 15px;
+    padding: 16px;
+}
